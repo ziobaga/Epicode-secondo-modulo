@@ -1,0 +1,41 @@
+main {
+  display: flex;
+}
+
+article {
+  border-radius: 20%;
+  background-color: burlywood;
+  text-align: center;
+  margin: 0;
+  margin: 0 25%;
+}
+
+article img {
+  border-radius: 20px 20px 0px 0px;
+  max-width: 100%;
+  width: 50vw;
+  height: 30vh;
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  margin-bottom: 15px;
+  background-color: #ff863c;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+}

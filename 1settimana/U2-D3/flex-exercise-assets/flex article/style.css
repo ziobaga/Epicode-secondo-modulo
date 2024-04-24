@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #612406;
+  padding: 0 8em;
+}
+
+article {
+  border-radius: 40px;
+  padding: 2em;
+  background-color: #eed15f42;
+  display: flex;
+}
+
+div {
+  margin-left: 2em;
+}
+
+@media screen and (max-width: 576px) {
+  article {
+    flex-direction: column-reverse;
+  }
+  div {
+    margin-left: 0;
+  }
+}

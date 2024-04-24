@@ -1,0 +1,38 @@
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: #612406;
+  font-weight: bold;
+  background-color: #fcf6d4;
+  border-radius: 150px;
+}
+
+img {
+  width: 30%;
+}
+
+nav ul li {
+  background-color: #f3df85;
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+#logo {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #612406;
+}

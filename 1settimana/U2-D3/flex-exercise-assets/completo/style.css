@@ -1,0 +1,118 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+#bar {
+  background-color: lightyellow;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  align-items: center;
+}
+
+img {
+  width: 5em;
+}
+
+.button {
+  width: 7em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 187, 0, 0.5);
+  color: darkred;
+}
+
+#shop {
+  width: 10em;
+  height: 4em;
+  border-radius: 40px;
+  font-weight: bold;
+  color: darkred;
+  font-size: 1.1em;
+}
+
+#ape {
+  width: 100%;
+  height: 100%;
+  margin: 16px;
+}
+
+#cardss {
+  display: flex;
+  flex-wrap: wrap;
+}
+/**************************************cards **************************************/
+#container {
+  border-radius: 80px;
+  width: 300px;
+  background-color: lightyellow;
+  text-align: center;
+  margin: 20px;
+}
+
+#image_card {
+  width: 100%;
+  margin: 0;
+  border-radius: 80px 80px 0 0;
+  height: 14em;
+}
+
+#leggenda {
+  display: flex;
+  justify-content: space-evenly;
+  color: darkred;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: darkred;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+div p {
+  margin: 5px;
+}
+
+.add {
+  margin: 10px;
+  background-color: rgba(255, 187, 0, 0.734);
+  border: none;
+  border-radius: 30px;
+  color: darkred;
+}
+
+/************************************** aticoli *************************************/
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#description-honey {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: lightyellow;
+}
+
+img {
+  margin: 25px;
+  width: 90%;
+}
+
+#testo {
+  margin: 30px 10px;
+  color: #795548;
+}
