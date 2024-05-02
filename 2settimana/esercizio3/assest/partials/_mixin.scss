@@ -1,0 +1,9 @@
+@mixin floating {
+  border-radius: 50px;
+  box-shadow: 5px 10px black;
+  border: 1px solid green;
+}
+
+@mixin grid {
+  display: flex;
+}

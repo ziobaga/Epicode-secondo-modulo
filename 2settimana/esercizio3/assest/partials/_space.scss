@@ -1,0 +1,26 @@
+$size-map: (
+  sm: 4px,
+  normal: 8px,
+  md: 12px,
+  lg: 16px,
+  xl: 24px,
+  xxl: 32px,
+);
+
+@each $size, $value in $size-map {
+  .padding-block-#{$size} {
+    padding-block: $value;
+  }
+  .padding-inline-#{$size} {
+    padding-inline: $value;
+  }
+}
+
+@each $size, $value in $size-map {
+  .margin-block-#{$size} {
+    margin-block: $value;
+  }
+  .margin-inline-#{$size} {
+    margin-inline: $value;
+  }
+}

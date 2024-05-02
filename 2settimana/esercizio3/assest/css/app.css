@@ -1,0 +1,46 @@
+@import url(../partials/_reset.scss);
+@import url(../partials/_animations.scss);
+@import url(../partials/_buttons.scss);
+@import url(../partials/_colors.scss);
+@import url(../partials/_fonts.scss);
+@import url(../partials/_mixin.scss);
+@import url(../partials/_space.scss);
+header {
+  background-color: rgb(50, 50, 188);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  display: flex;
+}
+section h1 {
+  color: white;
+}
+section img {
+  width: 500px;
+  position: relative;
+  top: 100px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
+}
+
+.button {
+  border-radius: 50px;
+  box-shadow: 5px 10px black;
+  border: 1px solid green;
+}/*# sourceMappingURL=app.css.map */

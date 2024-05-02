@@ -1,0 +1,18 @@
+$font: sans-serif;
+$font-sizes: (
+  font-sm: 1em,
+  font-md: 1.5em,
+  font-lg: 2em,
+  font-xl: 2.5em,
+);
+
+@each $size, $value in $font-sizes {
+  .#{$size} {
+    font-size: #{$value};
+  }
+}
+
+@mixin title-big {
+  font-size: $lg;
+  font-weight: 700;
+}
