@@ -1,0 +1,57 @@
+body {
+  background-color: #141414;
+}
+
+/*LOGO*/
+.logo-netflix img {
+  width: 150px;
+  vertical-align: middle;
+}
+
+/*PARTE CENTRALE*/
+.myprofile-avatar img {
+  width: 200px;
+}
+
+.myprofile-strive {
+  background-color: rgb(105, 104, 104);
+}
+
+/*dropdown*/
+.myprofile-dropdown-button {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  border: 1px solid white;
+}
+
+.myprofile-dropdown .dropdown-menu {
+  background-color: black;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.myprofile-dropdown .dropdown-menu .dropdown-item {
+  text-align: center;
+  color: white;
+}
+
+.myprofile-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(37, 37, 37, 0.666);
+}
+
+/*checkbox*/
+.mycheckbox .mystyle {
+  appearance: none;
+  background-color: #141414;
+  font-size: 1.5em;
+  min-width: 1.5em;
+  min-height: 1.5em;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.mycheckbox .mystyle:checked {
+  background-color: rgb(168, 168, 168);
+}

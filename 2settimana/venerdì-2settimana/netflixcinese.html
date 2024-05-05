@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix - Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/netflixcinese.css" />
+  </head>
+  <body>
+    <header>
+      <!--NAVBAR-->
+      <nav
+        class="navbar navbar-expand-lg netflix-navbar netflix-space-left netflix-space-right"
+      >
+        <div class="container-fluid">
+          <div class="netflix-row">
+            <!--left-->
+            <section class="left-nav d-flex align-items-center">
+              <a class="logo-netflix" href="#">
+                <img src="./assets/netflix_logo.png" alt="logo" />
+              </a>
+              <div class="netflix-menu">
+                <section>
+                  <button>Home</button>
+                  <button>TV Show</button>
+                  <button>Movies</button>
+                  <button>Recently Added</button>
+                  <button>My List</button>
+                </section>
+              </div>
+            </section>
+            <!---->
+            <!--right-->
+            <section class="right-nav d-flex align-items-center">
+              <i class="bi bi-search"></i>
+              <button>KIDS</button>
+              <i class="bi bi-bell-fill"></i>
+              <div class="netflix-avatar">
+                <img src="./assets/avatar.png" alt="avatar" />
+              </div>
+              <div class="dropdown netflix-dropdown-container">
+                <button
+                  class="dropdown-toggle netflix-dropdown"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ></button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./myprofile.html" target="_blank">My Profile</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="./settings.html" target="_blank">Settings</a></li>
+                </ul>
+              </div>
+            </section>
+            <!---->
+          </div>
+        </div>
+      </nav>
+      <!--FINE NAVBAR-->
+    </header>
+    <main>
+      <!--TV SHOW-->
+      <aside
+        class="netflix-space-left netflix-space-right d-flex netflix-aside justify-content-between align-items-center"
+      >
+        <!--left-->
+        <div class="d-flex align-items-center">
+          <div class="mx-4">
+            <h1 class="text-white netflix-tvshow">TV Shows</h1>
+          </div>
+          <div class="dropdown netflix-aside-dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle netflix-dropdown-2"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Genres
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Cartoon</a></li>
+              <li><a class="dropdown-item" href="#">Drammatic</a></li>
+              <li><a class="dropdown-item" href="#">Horror</a></li>
+              <li><a class="dropdown-item" href="#">Thriller</a></li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+        <!--right-->
+        <div class="d-flex netflix-tvshow-right">
+          <div class="netflix-icon p-1">
+            <i class="bi bi-list"></i>
+          </div>
+          <div class="netflix-icon p-1">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+        </div>
+        <!---->
+      </aside>
+      <!--FINE TV SHOW-->
+      <!--TV SHOW-->
+      <div class="netflix-space-left mt-5 d-flex justify-content-between">
+        <div class="ms-4">
+          <h1 class="text-white fs-4">Trending Now</h1>
+        </div>
+      </div>
+      <!--FINE TV SHOW-->
+      <!--PRIMO SCROLL-->
+      <article>
+        <div
+          class="d-flex mt-3 justify-content-between netflix-space-left netflix-space-right"
+        >
+          <div class="row">
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media0.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media10.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media11.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media12.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card">
+                <img
+                  src="./assets/media/media13.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <section class="d-flex justify-content-between">
+                    <div>
+                      <i class="bi bi-play-circle-fill"></i>
+                      <i class="bi bi-badge-4k"></i>
+                    </div>
+                    <div><i class="bi bi-arrow-down-circle"></i></div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!--FINE PRIMO SCROLL-->
+      <article>
+        <!--WATCH IT AGAIN-->
+        <div class="netflix-space-left mt-5 d-flex justify-content-between">
+            <div class="ms-4">
+              <h1 class="text-white fs-4">Watch It Again</h1>
+            </div>
+          </div>
+          <!--FINE WATCH IT AGAIN-->
+          <!--SECONDO SCROLL-->
+          <article>
+            <div
+              class="d-flex mt-3 justify-content-between netflix-space-left netflix-space-right"
+            >
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media14.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media15.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media16.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media19.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media17.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media18.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </article>
+      <!--FINE SECONDO SCROLL-->
+      <article>
+        <!--NEW RELEASES-->
+        <div class="netflix-space-left mt-5 d-flex justify-content-between">
+            <div class="ms-4">
+              <h1 class="text-white fs-4">New Releases</h1>
+            </div>
+          </div>
+          <!--FINE NEW RELEASES-->
+          <!--TERZO SCROLL-->
+          <article>
+            <div
+              class="d-flex mt-3 justify-content-between netflix-space-left netflix-space-right"
+            >
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media25.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media21.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media20.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media22.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media23.webp"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <img
+                      src="./assets/media/media24.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <section class="d-flex justify-content-between">
+                        <div>
+                          <i class="bi bi-play-circle-fill"></i>
+                          <i class="bi bi-badge-4k"></i>
+                        </div>
+                        <div><i class="bi bi-arrow-down-circle"></i></div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </article>
+      <!--FINE TERZO SCROLL-->
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <div class="container netflix-footer">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <i class="bi bi-facebook my-grey  px-2 fs-3"></i>
+                            <i class=" bi bi-instagram my-grey  px-2 fs-3"></i>
+                            <i class="bi bi-twitter-x my-grey  px-2 fs-3"></i>
+                            <i class="bi bi-youtube my-grey  px-2 fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="row mb-2 fsm-personal">
+                        <div class="col-3 col-lg-2 my-grey"><a>Audio and Subtitle</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Audio Description</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Help center</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Gift cards</a></div>
+                    </div>
+                    <div class="row mb-2 fsm-personal">
+                        <div class="col-3 col-lg-2 my-grey"><a>Media Center</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Investor Relations</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Jobs</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Terms of Use</a></div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-3 col-lg-2 my-grey"><a>Privacy</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Legal Notices</a></div>
+                        <div class="col-3 col-lg-2 my-grey"><a>Cookie Preferences</a></div>
+                        <div class="col-3 col-lg-3 my-grey"><a>Coroporate Information</a></div>
+                    </div>
+                    <div class="row mb-2 ">
+
+                        <div class="col "><a href="#" class="my-grey text-decoration-none">Contact
+                                Us</a></div>
+                    </div>
+                    <div class="row mb-2 border-1">
+
+                        <div class="col">
+                            <button type="button"
+                                class="btn btn-outline-secondary my-grey" id="button-service">
+                                Service Code
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mb-1l my-grey">
+
+                        <div class="col">&copy;1997-2019 Netflix Inc.{i-0d00fcda2df9c0de}</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--FINE FOOTER-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
