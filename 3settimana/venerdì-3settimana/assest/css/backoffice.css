@@ -1,0 +1,22 @@
+body {
+  font-family: "Graffiti", cursive;
+}
+
+main {
+  background-color: #121212;
+}
+
+footer {
+  background-color: rgba(207, 207, 207, 0.668);
+}
+
+/*hoover*/
+.my-title-logo .logo:hover {
+  cursor: pointer !important;
+  transform: scale(1.1);
+}
+
+.my-div-hover .my-ul-hover .my-li-hover a:hover {
+  color: rgb(143, 143, 143) !important;
+  cursor: pointer !important;
+}

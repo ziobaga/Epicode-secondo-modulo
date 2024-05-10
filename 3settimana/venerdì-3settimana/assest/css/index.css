@@ -1,0 +1,43 @@
+body {
+  font-family: "Graffiti", cursive;
+}
+
+main {
+  background-color: #121212;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: rgba(207, 207, 207, 0.668);
+}
+
+.my-navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+}
+
+/*hoover*/
+.my-title-logo .logo:hover {
+  cursor: pointer !important;
+  transform: scale(1.1);
+}
+
+.my-div-hover .my-ul-hover .my-li-hover a:hover {
+  color: rgb(143, 143, 143) !important;
+  cursor: pointer !important;
+}
+
+/*pulsanti*/
+.button-scopri {
+  background-color: rgb(119, 119, 119);
+}
+.button-scopri:hover {
+  background-color: rgb(107, 107, 107);
+}
+
+/*d-none*/
+.my-description {
+  display: none;
+}

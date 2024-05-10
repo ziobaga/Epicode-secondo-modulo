@@ -1,0 +1,19 @@
+body {
+  font-family: "Graffiti", cursive;
+}
+
+main {
+  background-color: #121212;
+}
+
+footer {
+  background-color: rgba(207, 207, 207, 0.668);
+}
+
+.modifica-button {
+  background-color: rgb(119, 119, 119);
+}
+
+.modifica-button:hover {
+  background-color: rgb(107, 107, 107);
+}
